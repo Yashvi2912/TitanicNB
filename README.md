@@ -6,9 +6,13 @@ This is a mini machine learning project that predicts whether a passenger surviv
 🚀 Features
 
 -Data cleaning and preprocessing
+
 -Exploratory Data Analysis (EDA) with visualizations
+
 -Naive Bayes classification model
+
 -Model evaluation and accuracy improvement
+
 -Interactive Streamlit app for user input
 
 
@@ -23,35 +27,50 @@ This is a mini machine learning project that predicts whether a passenger surviv
 📊 Technologies Used
 
 -Python
+
 -Pandas, NumPy
+
 -Seaborn, Matplotlib
+
 -Scikit-learn
+
 -Streamlit
 
 
 🧠 How It Works
 
 The model is trained on the Titanic dataset (from Kaggle) with features such as:
+
 -Pclass (Passenger class)
+
 -Sex
+
 -Age
+
 -SibSp (Number of siblings/spouses aboard)
+
 -Parch (Number of parents/children aboard)
+
 -Fare
+
 -Embarked
+
 After preprocessing, a Naive Bayes classifier is trained and tested for accuracy.
 
 
 💻 How to Run the Streamlit App
 
 pip install streamlit
+
 streamlit run titanic_nb_app.py
 
 
 📈 Sample Visualizations
 
 -Correlation heatmap
+
 -Survival distribution by gender and class
+
 -Age and fare histograms
 
 
